@@ -88,10 +88,9 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/priv-app/MiuiCamera/lib/arm64/libmorpho_groupshot.so:system/priv-app/MiuiCamera/lib/arm64/libmorpho_groupshot.so \
     $(VENDOR_PATH)/system/priv-app/MiuiCamera/lib/arm64/libmorpho_group_portrait.so:system/priv-app/MiuiCamera/lib/arm64/libmorpho_group_portrait.so \
     $(VENDOR_PATH)/system/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama.so:system/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama.so \
-    $(VENDOR_PATH)/system/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk \
-    $(VENDOR_PATH)/system/vendor/etc/media_profiles_V1_0.xml:system/vendor/etc/media_profiles_V1_0.xml \
-    $(VENDOR_PATH)/system/vendor/usr/keylayout/uinput-fpc.kl:system/vendor/usr/keylayout/uinput-fpc.kl \
-    $(VENDOR_PATH)/system/vendor/usr/keylayout/uinput-goodix.kl:system/vendor/usr/keylayout/uinput-goodix.kl \
+    $(VENDOR_PATH)/system/vendor/etc/media_profiles_V1_0.xml:vendor/etc/media_profiles_V1_0.xml \
+    $(VENDOR_PATH)/system/vendor/usr/keylayout/uinput-fpc.kl:vendor/usr/keylayout/uinput-fpc.kl \
+    $(VENDOR_PATH)/system/vendor/usr/keylayout/uinput-goodix.kl:vendor/usr/keylayout/uinput-goodix.kl \
 
 PRODUCT_PACKAGES += \
     MiuiCamera
